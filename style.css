@@ -10,18 +10,58 @@
 
 #name {
 	float: left;
+	color: #444444;
 }
 
-#contactDetails {
+div#contactDetails {
 	float: right;
+	color: #181818;
+	
 }
 
 .sectionTitle {
 	float: left;
 	width: 25%;
+	color: #cf8a05;
 }
 
 .sectionContent {
 	float: right;
 	width: 72.5%;
+}
+
+html {
+	font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+	background-color: #f3f3f3;
+}
+
+h1 {
+	font-family: 'Arial', 'Helvetica', 'Arial', sans-serif;	
+}
+
+h2 {
+	font-family: 'Rokkitt', 'Helvetica', 'Arial'  sans-serif;
+	color: #444444;
+}
+
+a {
+	text-decoration: none;
+	color: #181818;
+}
+
+ul {
+	list-style-type: none;
+	color: #181818;
+}
+
+div.mainDetails {
+	border-bottom: 2px solid #cf8a05;
+}
+
+p {
+	color: #181818;
+}
+
+section {
+	border-bottom: 1px solid #dedede;
 }
